@@ -71,10 +71,10 @@ def process(request):
 
 #login_register:success
 
-def redirect(request):
-    print ">>>>>>>>>>request is------->>>>>>>>>", request
-    print "request.session[user_id] in redirect is ------>>>", request.session['user_id']
-    # if request.GET:
+# def redirect(request):
+#     print ">>>>>>>>>>request is------->>>>>>>>>", request
+#     print "request.session[user_id] in redirect is ------>>>", request.session['user_id']
+#     # if request.GET:
     #     print "request.GET is ---------->>>>>>", request.GET
     #     return redirect('courses_app:index')
 
